@@ -1,0 +1,23 @@
+Please note that these credentials are not permanent.
+
+Heroku rotates credentials periodically and updates applications where this database is attached.
+
+Host
+ec2-54-83-157-174.compute-1.amazonaws.com
+Database
+dep1fd5fvmkg5m
+User
+dkiymbcbzospjx
+Port
+5432
+Password
+b2093ce3069ecfa7249b545d4f1cb1fa01459621887c5c92a60bc066b62dd353
+URI
+postgres://dkiymbcbzospjx:b2093ce3069ecfa7249b545d4f1cb1fa01459621887c5c92a60bc066b62dd353@ec2-54-83-157-174.compute-1.amazonaws.com:5432/dep1fd5fvmkg5m
+Heroku CLI
+heroku pg:psql postgresql-vertical-12816 --app fastapi-emaclita
+
+Git URL:        https://git.heroku.com/fastapi-emaclita.git
+
+Web URL:        https://fastapi-emaclita.herokuapp.com/
+
