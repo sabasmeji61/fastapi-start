@@ -1,5 +1,4 @@
 Please note that these credentials are not permanent.
-
 Heroku rotates credentials periodically and updates applications where this database is attached.
 
 Host
@@ -21,3 +20,24 @@ Git URL:        https://git.heroku.com/fastapi-emaclita.git
 
 Web URL:        https://fastapi-emaclita.herokuapp.com/
 
+
+220113:
+Please note that these credentials are not permanent.
+Heroku rotates credentials periodically and updates applications where this database is attached.
+
+Host
+ec2-3-227-15-75.compute-1.amazonaws.com
+Database
+d55j4e5tj0f9ht
+User
+ekiqxfolqxfwtw
+Port
+5432
+Password
+5e4b9c41c0b9aff4378291c3b6748fbce2b6598e82b31cc7061fa2f0618b03dc
+URI
+postgres://ekiqxfolqxfwtw:5e4b9c41c0b9aff4378291c3b6748fbce2b6598e82b31cc7061fa2f0618b03dc@ec2-3-227-15-75.compute-1.amazonaws.com:5432/d55j4e5tj0f9ht
+Heroku CLI
+heroku pg:psql postgresql-encircled-26647 --app fastapi-emaclita
+Heroku git URL
+https://git.heroku.com/fastapi-emaclita.git
