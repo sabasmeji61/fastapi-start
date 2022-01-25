@@ -10,7 +10,7 @@ from . import models  #, schemas, utils
 from .routers import post, user, auth, vote
 from .config import settings
 
-print(settings.database_username)
+# print(settings.database_username)
 # models.Base.metadata.create_all(bind=engine)  ## replaced by alembic system!!!
 
 app = FastAPI()
@@ -43,5 +43,5 @@ app.include_router(vote.router)
 @app.get("/")
 def root():
     # return {"message": "Welcome to my api"}
-    return {"message": "Hello Great Great World!!!!!"}
+    return {"message": "Hello World"}
 
