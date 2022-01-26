@@ -37,6 +37,5 @@ jobs:
       - name: Test with pytest
         run:
           pip install pytest
-        run:
           pytest
-#  job2:
+          
