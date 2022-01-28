@@ -93,7 +93,7 @@ jobs:
           username: ${{secrets.PROD_USERNAME}}
           password: ${{secrets.PROD_PASSWORD}}
           script: |
-            cd app/src
+            cd fastapi/src
             git pull
 
       # login to our ubuntu
